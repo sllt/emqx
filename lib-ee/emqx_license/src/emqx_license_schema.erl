@@ -84,8 +84,5 @@ check_license_watermark(Conf) ->
 %% should be updated accordingly
 default_license() ->
     <<
-        "MjIwMTExCjAKMTAKRXZhbHVhdGlvbgpjb250YWN0QGVtcXguaW8KZ"
-        "GVmYXVsdAoyMDIzMDEwOQoxODI1CjEwMAo=.MEUCIG62t8W15g05f"
-        "1cKx3tA3YgJoR0dmyHOPCdbUxBGxgKKAiEAhHKh8dUwhU+OxNEaOn"
-        "8mgRDtiT3R8RZooqy6dEsOmDI="
+        "MjIwMTExCjAKMTAKc2xsdApoZWxsb0BzbGx0Lm1lCmRlZmF1bHQKMjAyMzA5MjUKMzY1CjEwMAo=.MEUCIHrx0vlV1BX+oEAL++9HWBmw+VXVU1tEFPz5qYaRFauQAiEA5is/EEFENZN2dSAvHJa0W3MpLx4ke0ejq/QV+m2l6pQ="
     >>.

@@ -29,7 +29,7 @@ ifeq ($(strip $(ELIXIR_VSN)),)
 	export ELIXIR_VSN := $(shell $(SCRIPTS)/get-elixir-vsn.sh)
 endif
 
-PROFILE ?= emqx
+PROFILE ?= emqx-enterprise
 REL_PROFILES := emqx emqx-enterprise
 PKG_PROFILES := emqx-pkg emqx-enterprise-pkg
 PROFILES := $(REL_PROFILES) $(PKG_PROFILES) default
